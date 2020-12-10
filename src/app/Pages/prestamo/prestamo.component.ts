@@ -92,7 +92,6 @@ export class PrestamoComponent implements OnInit {
 
       eliminarPrestamo(){
       this.pS.eliminarPrestamo(this.idP).then((data: any) => {
-        this.pS.eliminarPrestamo(this.idP)
         this.prestamo = data;
         Toast.fire(data.msg, '', 'success');
         this.salida.emit();

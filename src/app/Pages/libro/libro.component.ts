@@ -6,7 +6,6 @@ import { LibrosService } from '../../Services/libros/libros.service';
 import { UsuariosService } from '../../Services/usuarios/usuarios.service';
 import { UsuarioModel } from '../../Models/usuarios';
 
-
 const Toast = Swal.mixin({
   toast: true,
   position: 'top-right',

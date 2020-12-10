@@ -10,7 +10,7 @@ import { LoginComponent } from './Pages/login/login.component';
 
 const routes: Routes = [
   { path: 'usuarios', component: UsuarioComponent},
-    { path: 'login', component: LoginComponent},
+  { path: 'login', component: LoginComponent},
   { path: 'prestamos', component: PrestamoComponent},
   { path: 'libros', component: LibroComponent},
   { path: 'acerca-de', component: AcercadeComponent},

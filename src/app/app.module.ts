@@ -13,6 +13,7 @@ import { Error404Component } from './Pages/shared/error404/error404.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
+
 import { AcercadeComponent } from './Pages/acercade/acercade.component';
 import { PasswordPipe } from './Pipes/password.pipe';
 import { LoginComponent } from './Pages/login/login.component';
